@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/setName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Full Name"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/setEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/professionalSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Write your professional summary here: \n e.g. \n Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. "
+        />
+    <EditText
+        android:id="@+id/workExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Write about your work experiene here: \n \n 1) \n 2) \n 3) \n.....\n....." />
+    <EditText
+        android:id="@+id/education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Education: \n \n 1)O'levels / S.S.C \n 2)A'levels / H.S.C) \n 3)Bachelors Degree\n 4)Masters degree\n....." />
+    <EditText
+        android:id="@+id/volunteeringExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Write about your Volunteering experiene here, If there are any: \n \n 1) \n 2) \n 3) \n.....\n....." />
+    <EditText
+        android:id="@+id/extraCurricularActivities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Write about any extra curricular activities you have been a part of, if any: \n \n 1) \n 2) \n 3) \n.....\n....." />
+    <EditText
+        android:id="@+id/skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Write about any skills you possess: \n \n 1) \n 2) \n 3) \n.....\n....." />
+    <EditText
+        android:id="@+id/languageProficiency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Mention all the languages you know, basic, read/write, proficient  \n \n 1) \n 2) \n 3) \n.....\n....." />
+
+
+
+    <Button
+        android:id="@+id/createPortfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create portfolio"/>
+
+
+
+</LinearLayout>
+</ScrollView>

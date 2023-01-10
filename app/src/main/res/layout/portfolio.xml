@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/portfolioScrollView"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bbe1fa">
+    <TextView
+        android:id="@+id/portfolioName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        tools:text="Bhuiyan Shadman Wasif"
+        android:textSize="19sp"/>
+    <TextView
+        android:id="@+id/portfolioEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        tools:text="waseefafridi39@gmail.com"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/portfolioProfessionalSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="PROFESSIONAL SUMMARY"
+        android:textColor="#810000"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/portfolioProfessionalSummaryParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        tools:text="Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. " />
+
+    <TextView
+        android:id="@+id/portfolioWorkExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="WORK EXPERIENCE"
+        android:textColor="#810000"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/portfolioWorkExperienceParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:text="Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. "
+        android:textColor="#050505"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/portfolioEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="EDUCATION"
+        android:textColor="#810000"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/portfolioEducationParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:text="Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. "
+        android:textColor="#050505"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/portfolioVolunteer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="VOLUNTEERING"
+        android:textColor="#810000"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/portfolioVolunteerParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:text="Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. "
+        android:textColor="#050505"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/portfolioActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="EXTRA CURRICULAR ACIVITIES"
+        android:textColor="#810000"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/portfolioActivityParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:text="Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. "
+        android:textColor="#050505"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/portfolioSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="SKILLS"
+        android:textColor="#810000"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/portfolioSkillsParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:text="Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. "
+        android:textColor="#050505"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/portfolioLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="LANGUAGE PROFICIENCY"
+        android:textColor="#810000"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/portfolioLanguageParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:text="Reliable, energetic, punctual, confident, passionate and dedicated about work. Amazing computer skills and expertise in relationship-building. "
+        android:textColor="#050505"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Portfolio"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
